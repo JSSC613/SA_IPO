@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+    <!-- 定義一個名為 navbar 的片段 -->
+    <div th:fragment="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+            <div class="container">
+                <a class="navbar-brand" href="#">TradeMaster</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto" th:if="${session.user != null}">
+                        <li class="nav-item"><a class="nav-link" href="/market">瀏覽股價</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/investor/ipo">股票申購</a></li>
+                        <li class="nav-item" th:if="${session.user.role == 'ADMIN'}">
+                            <a class="nav-link text-warning" href="/admin">管理員後台</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text text-white me-3" th:if="${session.user != null}">
+                        帳號: <span th:text="${session.user.username}"></span> | 
+                        餘額: $<span th:text="${#numbers.formatDecimal(session.user.balance, 0, 'COMMA', 0, 'POINT')}"></span>
+                    </span>
+                    <a th:if="${session.user != null}" href="/logout" class="btn btn-outline-danger btn-sm">登出</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</body>
+</html>
