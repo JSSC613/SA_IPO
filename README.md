@@ -37,9 +37,9 @@
     ```
 2.  **使用 VS Code 開啟資料夾**。
 3.  等待 Java Extension 載入專案設定 (右下角會有進度條)。
-4.  開啟 `src/main/java/com/example/trademaster/TradeMasterApplication.java`。
+4.  開啟 `src/main/java/com/example/tradeiposystem/TradeIPOSystemApplication.java`。
 5.  點擊上方的 **Run** 按鈕。
-6.  當終端機出現 `Started TradeMasterApplication` 後，開啟瀏覽器。
+6.  當終端機出現 `Started TradeIPOSystemApplication` 後，開啟瀏覽器。
 7.  前往網址：[http://localhost:8080](http://localhost:8080)
 
 ## 預設測試帳號 (Demo Accounts)
@@ -52,9 +52,9 @@
 | **投資人** | (請自行註冊) | (自訂) | 註冊後預設資金為 $100,000 |
 
 ## 專案結構簡介
-*   `src/main/java/com/example/trademaster/model` - 資料物件 (User, IPOStock, IPORecord)
-*   `src/main/java/com/example/trademaster/service` - 業務邏輯 (抽籤演算法、扣款邏輯)
-*   `src/main/java/com/example/trademaster/controller` - 網頁路徑控制
+*   `src/main/java/com/example/tradeiposystem/model` - 資料物件 (User, IPOStock, IPORecord)
+*   `src/main/java/com/example/tradeiposystem/service` - 業務邏輯 (抽籤演算法、扣款邏輯)
+*   `src/main/java/com/example/tradeiposystem/controller` - 網頁路徑控制
 *   `src/main/resources/templates` - HTML 網頁檔案
 
 ---
