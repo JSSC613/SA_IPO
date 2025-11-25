@@ -5,7 +5,7 @@ graph LR
     A[Administrator<br/>管理員]
 
     %% 定義系統邊界
-    subgraph TradeMaster_System [TradeMaster System]
+    subgraph TradeIPOSystem_System [TradeIPOSystem System]
         direction TB
         UC1((Login<br/>登入系統))
         UC2((View Market<br/>瀏覽行情))

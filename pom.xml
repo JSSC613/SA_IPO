@@ -9,9 +9,9 @@
         <version>3.2.0</version> <!-- 版本可能隨時間更新 -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>trademaster</artifactId>
+    <artifactId>tradeiposystem</artifactId> <!-- 原本是 trademaster -->
     <version>0.0.1-SNAPSHOT</version>
-    <name>TradeMaster</name>
+    <name>TradeIPOSystem</name>          <!-- 原本是 TradeMaster -->
     <description>Taiwan Stock IPO System</description>
 
     <properties>

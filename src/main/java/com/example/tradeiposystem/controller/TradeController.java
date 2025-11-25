@@ -1,4 +1,4 @@
-package com.example.trademaster.controller;
+package com.example.tradeiposystem.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.example.trademaster.model.IPOStock;
-import com.example.trademaster.model.User;
-import com.example.trademaster.service.StockService;
+import com.example.tradeiposystem.model.IPOStock;
+import com.example.tradeiposystem.model.User;
+import com.example.tradeiposystem.service.StockService;
 
 import jakarta.servlet.http.HttpSession;
 

@@ -1,4 +1,4 @@
-package com.example.trademaster.model;
+package com.example.tradeiposystem.model;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

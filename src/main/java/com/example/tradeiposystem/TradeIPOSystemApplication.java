@@ -1,11 +1,11 @@
-package com.example.trademaster;
+package com.example.tradeiposystem;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TradeMasterApplication {
+public class TradeIPOSystemApplication {
     public static void main(String[] args) {
-        SpringApplication.run(TradeMasterApplication.class, args);
+        SpringApplication.run(TradeIPOSystemApplication.class, args);
     }
 }

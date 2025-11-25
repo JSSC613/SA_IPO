@@ -1,7 +1,7 @@
-package com.example.trademaster.controller;
+package com.example.tradeiposystem.controller;
 
-import com.example.trademaster.service.UserService;
-import com.example.trademaster.model.User;
+import com.example.tradeiposystem.service.UserService;
+import com.example.tradeiposystem.model.User;
 import jakarta.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

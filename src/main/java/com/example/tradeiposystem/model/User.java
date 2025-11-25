@@ -1,4 +1,4 @@
-package com.example.trademaster.model;
+package com.example.tradeiposystem.model;
 
 public class User {
     private String username;

@@ -1,6 +1,6 @@
-package com.example.trademaster.service;
+package com.example.tradeiposystem.service;
 
-import com.example.trademaster.model.User;
+import com.example.tradeiposystem.model.User;
 import org.springframework.stereotype.Service;
 import java.util.HashMap;
 import java.util.Map;
